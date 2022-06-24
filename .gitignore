@@ -26,3 +26,11 @@ src/ontology/fma_uberon.owl
 src/ontology/microscopy*
 
 src/imports/*
+src/ontology/cl_import.owl
+src/ontology/clo_import.owl
+src/ontology/hcao_cleaned.owl
+src/ontology/hcao_merged.owl
+src/ontology/uberon_axioms_in_cl.ofn
+src/ontology/uberon_axioms_in_cl.owl
+src/ontology/uberon_manual.owl
+src/ontology/ensure-terms-hpo_slim.owl.txt
