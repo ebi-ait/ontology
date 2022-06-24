@@ -219,7 +219,7 @@ sparql_test: $(SRC)
 ensure_terms_%: %
 	$(ROBOT) query -i $< --query ../sparql/ensure-terms-$<.sparql ensure-terms-$<.txt && grep -q true ensure-terms-$<.txt
 
-test: ensure_terms_hpo_slim.owl
+all: ensure_terms_hpo_slim.owl
 
 # ----------------------------------------
 # Sparql queries: Reports
