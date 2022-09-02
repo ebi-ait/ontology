@@ -30,11 +30,11 @@ EFO_MIRROR=mirror/efo.owl
 
 some: $(ONT).owl sparql_test
 
-all: all_imports all_anatomy go_cell_cycle.owl efo_slim.owl $(ONT).owl
+all: all_imports all_anatomy go_cell_cycle.owl efo_slim.owl $(ONT).owl fbbi_hcao.owl
 
 test: sparql_test all
 prepare_release: all
-	cp $(ONT).owl efo_slim.owl hpo_slim.owl $(RELEASEDIR) &&\
+	cp $(ONT).owl efo_slim.owl hpo_slim.owl fbbi_hcao.owl $(RELEASEDIR) &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
 # ----------------------------------------
@@ -130,17 +130,17 @@ hpo_slim.owl: ./mirror/hp.owl hp_import.txt hpo_remove_terms.txt
 	remove -T hpo_remove_terms.txt \
 	annotate --ontology-iri http://ontology.data.humancellatlas.org/ontologies/hp -o $@
 
-microscopy_seed.txt: ../imports/fbbi.owl
-	echo "'microscopy'" | $(OWLTOOLS) $< --reasoner-query -r elk -d --stdin | cut -d ' ' -f2 > $@
+microscopy_seed.txt: #../imports/fbbi.owl
+	echo "'microscopy'" | $(OWLTOOLS) ../imports/fbbi.owl --reasoner-query -r elk -d --stdin | cut -d ' ' -f2 > $@
 
-microscopy_label_seed.txt: ../imports/fbbi.owl
-	echo "'fluorescent label'" | $(OWLTOOLS) $< --reasoner-query -r elk -d --stdin | cut -d ' ' -f2 > $@
+microscopy_label_seed.txt: #../imports/fbbi.owl
+	echo "'fluorescent label'" | $(OWLTOOLS) ../imports/fbbi.owl --reasoner-query -r elk -d --stdin | cut -d ' ' -f2 > $@
 
 fbbi_terms.txt: microscopy_seed.txt microscopy_label_seed.txt
 	cat $+ > $@
 
 fbbi_hcao.owl: fbbi_terms.txt
- 	$(ROBOT) extract --method BOT --input $(FBBI) --term-file fbbi_terms.txt annotate --ontology-iri http://ontology.data.humancellatlas.org/ontologies/fbbi --output $@
+	$(ROBOT) extract --method BOT --input $(FBBI) --term-file fbbi_terms.txt annotate --ontology-iri "http://ontology.data.humancellatlas.org/ontologies/fbbi" --output $@
 
 #generate data branch slim from EDAM
 #data_terms.txt: ../imports/edam.owl
