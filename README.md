@@ -34,6 +34,43 @@ docker run -p 8080:8080 -t hcao-ols
 
 OLS should now be running at http://localhost:8080
 
+## Build the ontologies
+
+To build all the relevant files:
+
+```
+make all
+```
+
+to move the built files to the correct directory:
+
+```
+make prepare_release
+```
+
+If you want to use `docker` to run the pipeline above, just call the `make` commands through the docker wrapper script `run.sh`:
+
+```
+sh run.sh make all
+sh run.sh make prepare_release
+```
+
+## Ontologies included in HCAO OLS
+
+### HCA-maintained component ontologies
+
+- hcao.owl
+- efo_slim.owl
+- hpo_slim.owl
+- fbbi_hcao.owl
+
+### Externally managed ontologies
+
+- Mondo (http://purl.obolibrary.org/obo/mondo.obo)
+- HANCESTRO (https://raw.githubusercontent.com/EBISPOT/ancestro/master/hancestro.owl): The unreasoned version of HANCESTRO.
+- EDAM (http://edamontology.org/EDAM.owl)
+
+
 ## Contact
 
 Please use this GitHub repository's [Issue tracker](https://github.com/HumanCellAtlas/ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
