@@ -221,6 +221,11 @@ VQUERIES = $(foreach V,$(VCHECKS),$(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC)
 	$(ROBOT) verify -i $< --queries $(VQUERIES) -O reports/
 
+ensure_terms_%: %
+	$(ROBOT) query -i $< --query ../sparql/ensure-terms-$<.sparql ensure-terms-$<.txt && grep -q true ensure-terms-$<.txt
+
+all: ensure_terms_hpo_slim.owl
+
 # ----------------------------------------
 # Sparql queries: Reports
 # ----------------------------------------
