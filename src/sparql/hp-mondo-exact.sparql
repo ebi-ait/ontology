@@ -22,7 +22,7 @@ WHERE
            owl:annotatedTarget ?value ;
            oboInOwl:source ?source .
 
-  FILTER (strstarts(str(?source),"MONDO:equivalentTo"))
+  FILTER (strstarts(str(?source),"MONDO:otherHierarchy"))
   FILTER( !isBlank(?cls) && STRSTARTS(str(?cls), "http://purl.obolibrary.org/obo/MONDO_"))
   FILTER( STRSTARTS(str(?value), "HP:"))
 }

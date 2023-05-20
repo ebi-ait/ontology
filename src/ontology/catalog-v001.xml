@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/hsapdv/releases/2018-03-24/hsapdv.owl" uri="http://purl.obolibrary.org/obo/hsapdv.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/hsapdv/releases/2018-01-08/hsapdv.owl" uri="../imports/hsapdv.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cl.owl" uri="cl_human.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/uberon.owl" uri="uberon_human.owl"/>
-    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
+<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+
+  <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/uberon_human_extended.owl" uri="components/uberon_human_extended.owl"/>
+  <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/cl_import.owl" uri="components/cl_import.owl"/>
+  <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/go_cell_cycle.owl" uri="components/go_cell_cycle.owl"/>
+  <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao" uri="components/hcao.owl"/>
+  
+
+</group>
 </catalog>

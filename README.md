@@ -1,15 +1,10 @@
-[![Build Status](https://travis-ci.org/HumanCellAtlas/ontology.svg?branch=master)](https://travis-ci.org/HumanCellAtlas/ontology)
-[![Docker Repository on Quay](https://quay.io/repository/humancellatlas/ontology/status "Docker Repository on Quay")](https://quay.io/repository/humancellatlas/ontology)
 
-# hcao
+![Build Status](https://github.com/ebi-ait/ontology/workflows/CI/badge.svg)
+# Human Cell Atlas Ontology
 
-An application ontology for the Human Cell Atlas.  
+Description: None
 
-## Components: 
-
-### Anatomy:
-
-Mamalian anatomy and cell type terms from Uberon and the cell ontology;  Human-specific labels from the Foundational Model of Anatomy
+More information can be found at http://obofoundry.org/ontology/hcao
 
 ## Versions
 
@@ -25,19 +20,10 @@ http://purl.obolibrary.org/obo/hcao.owl
 
 Editors of this ontology should use the edit version, [src/ontology/hcao-edit.owl](src/ontology/hcao-edit.owl)
 
-## Build a OLS docker instance with ontologies in
-
-```
-docker build . -t hcao-ols
-docker run -p 8080:8080 -t hcao-ols 
-``` 
-
-OLS should now be running at http://localhost:8080
-
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/HumanCellAtlas/ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/ebi-ait/ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).

@@ -1,0 +1,1685 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontology.data.humancellatlas.org/ontologies/hcao//imports/fma_import.owl#"
+     xml:base="http://ontology.data.humancellatlas.org/ontologies/hcao//imports/fma_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontology.data.humancellatlas.org/ontologies/hcao//imports/fma_import.owl">
+        <owl:versionIRI rdf:resource="http://ontology.data.humancellatlas.org/ontologies/hcao//releases/2023-05-16/imports/fma_import.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_11181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_11181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Segment of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:11181</oboInOwl:id>
+        <rdfs:label>Bronchopulmonary segment of left lung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_13188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Apical segment of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:13188</oboInOwl:id>
+        <rdfs:label>Apical bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_13189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Posterior segment of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:13189</oboInOwl:id>
+        <rdfs:label>Posterior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_13190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Anterior segment of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:13190</oboInOwl:id>
+        <rdfs:label>Anterior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_13191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Superior segment of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:13191</oboInOwl:id>
+        <rdfs:label>Superior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_13192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Medial basal segment of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:13192</oboInOwl:id>
+        <rdfs:label>Medial basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_13193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Anterior basal segment of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:13193</oboInOwl:id>
+        <rdfs:label>Anterior basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_13194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Lateral basal segment of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:13194</oboInOwl:id>
+        <rdfs:label>Lateral basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_13195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Posterior basal segment of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:13195</oboInOwl:id>
+        <rdfs:label>Posterior basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_14065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+        <obo:IAO_0000115>Cardinal organ part which is bounded predominantly by bonafide boundaries.  Examples: lobe of lung, osteon, acinus, submucosa, anterior leaflet of mitral valve, capsule of kidney, cortical bone, muscle fasciculus.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:14065</oboInOwl:id>
+        <rdfs:label>Organ component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_14092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+        <oboInOwl:hasExactSynonym>Small intestinal zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:14092</oboInOwl:id>
+        <rdfs:label>Zone of small intestine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_14925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14925">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14092"/>
+        <oboInOwl:hasExactSynonym>Doudenal zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:14925</oboInOwl:id>
+        <rdfs:label>Zone of duodenum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_14963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14963">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14092"/>
+        <oboInOwl:hasExactSynonym>Ileum zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:14963</oboInOwl:id>
+        <rdfs:label>Zone of ileum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_14964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14964">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14963"/>
+        <oboInOwl:hasExactSynonym>Proximal portion of ileum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:14964</oboInOwl:id>
+        <rdfs:label>Proximal part of ileum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_14965 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14965">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14963"/>
+        <oboInOwl:hasExactSynonym>Middle portion of ileum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:14965</oboInOwl:id>
+        <rdfs:label>Middle part of ileum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_14966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14963"/>
+        <oboInOwl:hasExactSynonym>Distal portion of ileum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Terminal ileum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:14966</oboInOwl:id>
+        <rdfs:label>Distal part of ileum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86310"/>
+        <obo:IAO_0000115>Zone of kidney located at its superior end. Examples: There is only one superior pole of kidney.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Superior extremity of kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Upper pole of kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15604</oboInOwl:id>
+        <rdfs:label>Superior pole of kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86310"/>
+        <obo:IAO_0000115>Zone of kidney located at its inferior end. Examples: There is only one inferior pole of kidney.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Inferior extremity of kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lower pole of kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15605</oboInOwl:id>
+        <rdfs:label>Inferior pole of kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15604"/>
+        <oboInOwl:hasExactSynonym>Superior extremity of right kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15606</oboInOwl:id>
+        <rdfs:label>Superior pole of right kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15604"/>
+        <oboInOwl:hasExactSynonym>Superior extremity of left kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15607</oboInOwl:id>
+        <rdfs:label>Superior pole of left kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15605"/>
+        <oboInOwl:hasExactSynonym>Inferior extremity of right kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15608</oboInOwl:id>
+        <rdfs:label>Inferior pole of right kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15605"/>
+        <oboInOwl:hasExactSynonym>Inferior extremity of left kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15609</oboInOwl:id>
+        <rdfs:label>Inferior pole of left kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66329"/>
+        <oboInOwl:hasExactSynonym>Flexura sacralis (Rectum)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15719</oboInOwl:id>
+        <rdfs:label>Sacral flexure of rectum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15721">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66329"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15721</oboInOwl:id>
+        <rdfs:label>Rectal ampulla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86140"/>
+        <oboInOwl:hasExactSynonym>Hepatic subsegment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15725</oboInOwl:id>
+        <rdfs:label>Subsegment of liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86140"/>
+        <oboInOwl:hasExactSynonym>Hepatovenous segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15737</oboInOwl:id>
+        <rdfs:label>Hepatovenous subsector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasExactSynonym>Couinaud hepatic segment II</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Left posterior lateral segment of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior sector of left lobe of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior segment of left lobe of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segment II of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15739</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15741">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15757"/>
+        <oboInOwl:hasExactSynonym>Couinaud hepatic segment III</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral segment of anterior part of left lobe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral segment of anterior sector of left liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Left anterior lateral segment of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segment III of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15741</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment III</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15742">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15757"/>
+        <oboInOwl:hasExactSynonym>Couinaud hepatic segment IV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Left medial segment of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial segment of anterior sector of left liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segment IV of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15742</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment IV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15755"/>
+        <oboInOwl:hasExactSynonym>Anterior inferior hepatovenous segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Couinaud hepatic segment V</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Inferior segment of anterior sector of right liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Right anterior medial segment of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segment V of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15743</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment V</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15756"/>
+        <oboInOwl:hasExactSynonym>Couinaud hepatic segment VI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Inferior segment of posterior sector of right liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior inferior hepatovenous segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Right anterior lateral segment of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segment VI of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15744</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment VI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15756"/>
+        <oboInOwl:hasExactSynonym>Couinaud hepatic segment VII</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior superior hepatovenous segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Right posterior lateral segment of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segment VII of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior segment of posterior sector of right liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15745</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment VII</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15746">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15755"/>
+        <oboInOwl:hasExactSynonym>Anterior superior hepatovenous segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Couinaud hepatic segment VIII</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Right posterior medial segment of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segment VIII of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior segment of anterior sector of right liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15746</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment VIII</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15747">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasExactSynonym>Couinaud hepatic segment IX</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Right paracaval region of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Right paracaval segment of dorsal sector of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15747</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment IX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15755">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasExactSynonym>Anterior hepatovenous subsector of right liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Region of anterior sector of right liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15755</oboInOwl:id>
+        <rdfs:label>Region of anterior sector of right liver (in-vivo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15756">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasExactSynonym>Posterior hepatovenous subsector of right liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Region of posterior sector of right liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15756</oboInOwl:id>
+        <rdfs:label>Region of posterior sector of right liver (in-vivo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasExactSynonym>Anterior hepatovenous subsector of left liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Region of anterior sector of left liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15757</oboInOwl:id>
+        <rdfs:label>Region of anterior sector of left liver (in-vivo)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15805">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasExactSynonym>Medial superior hepatovenous segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial superior segment of anterior sector of left liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15805</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment IVa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasExactSynonym>Medial inferior hepatovenous segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial inferior segment of anterior sector of left liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15806</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment IVb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15816</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment IXb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15817</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment IXc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15818">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15737"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15818</oboInOwl:id>
+        <rdfs:label>Hepatovenous segment IXd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15955">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14925"/>
+        <oboInOwl:hasExactSynonym>Superior duodenal flexure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15955</oboInOwl:id>
+        <rdfs:label>Superior flexure of duodenum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_15956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15956">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14925"/>
+        <oboInOwl:hasExactSynonym>Inferior duodenal flexure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:15956</oboInOwl:id>
+        <rdfs:label>Inferior flexure of duodenum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_16980 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16980">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14092"/>
+        <oboInOwl:hasExactSynonym>Jejunum zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:16980</oboInOwl:id>
+        <rdfs:label>Zone of jejunum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_16981 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16981">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_16980"/>
+        <oboInOwl:hasExactSynonym>Proximal portion of jejunum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Upper portion of jejunum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:16981</oboInOwl:id>
+        <rdfs:label>Proximal part of jejunum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_16982 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16982">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_16980"/>
+        <oboInOwl:hasExactSynonym>Middle portion of jejunum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:16982</oboInOwl:id>
+        <rdfs:label>Middle part of jejunum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_16983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16983">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_16980"/>
+        <oboInOwl:hasExactSynonym>Distal portion of jejunum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:16983</oboInOwl:id>
+        <rdfs:label>Distal part of jejunum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_17559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_17559">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+        <oboInOwl:hasExactSynonym>Uterine zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:17559</oboInOwl:id>
+        <rdfs:label>Zone of uterus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_17561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_17561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_17559"/>
+        <oboInOwl:hasExactSynonym>Uterine fundus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:17561</oboInOwl:id>
+        <rdfs:label>Fundus of uterus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_17752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_17752">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_17559"/>
+        <oboInOwl:hasExactSynonym>Isthmus of uterus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Uterine isthmus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:17752</oboInOwl:id>
+        <rdfs:label>Lower uterine segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_20103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9640"/>
+        <obo:IAO_0000115>Connective tissue, which consists of fibroblasts, the intercellular matrix of which contains a regular network of collagen and elastic fiber bundles. Examples: bone (tissue), cartilage (tissue), dense regular collagenous tissue.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:20103</oboInOwl:id>
+        <rdfs:label>Regular connective tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_23182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_17559"/>
+        <oboInOwl:hasExactSynonym>Body proper of uterus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:23182</oboInOwl:id>
+        <rdfs:label>Upper uterine segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_24321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37377"/>
+        <oboInOwl:hasExactSynonym>Bone cartilage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:24321</oboInOwl:id>
+        <rdfs:label>Cartilage of bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_258906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_258906">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86310"/>
+        <oboInOwl:hasExactSynonym>Interpolar region of kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:258906</oboInOwl:id>
+        <rdfs:label>Middle part of kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_258908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_258908">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_258906"/>
+        <oboInOwl:hasExactSynonym>Interpolar region of right kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:258908</oboInOwl:id>
+        <rdfs:label>Middle part of right kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_258910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_258910">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_258906"/>
+        <oboInOwl:hasExactSynonym>Interpolar region of left kidney</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:258910</oboInOwl:id>
+        <rdfs:label>Middle part of left kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_26659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_26659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86140"/>
+        <oboInOwl:hasExactSynonym>Tracheal segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:26659</oboInOwl:id>
+        <rdfs:label>Segment of trachea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_29335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_29335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66329"/>
+        <oboInOwl:hasExactSynonym>Perineal flexure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:29335</oboInOwl:id>
+        <rdfs:label>Anorectal flexure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_32676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32676">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24321"/>
+        <oboInOwl:hasExactSynonym>Long bone cartilage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:32676</oboInOwl:id>
+        <rdfs:label>Cartilage of long bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_32761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32761">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32814"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:32761</oboInOwl:id>
+        <rdfs:label>Hyaline cartilage of femur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_32792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32761"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:32792</oboInOwl:id>
+        <rdfs:label>Epiphyseal plate of femur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_32814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32814">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32676"/>
+        <oboInOwl:hasExactSynonym>Femoral cartilage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:32814</oboInOwl:id>
+        <rdfs:label>Cartilage of femur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_33923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_33923">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32676"/>
+        <oboInOwl:hasExactSynonym>Tibial cartilage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:33923</oboInOwl:id>
+        <rdfs:label>Cartilage of tibia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_33924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_33924">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_33923"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:33924</oboInOwl:id>
+        <rdfs:label>Hyaline cartilage of tibia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_33934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_33934">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_33924"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:33934</oboInOwl:id>
+        <rdfs:label>Epiphyseal plate of tibia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_34063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_34063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32676"/>
+        <oboInOwl:hasExactSynonym>Fibula cartilage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:34063</oboInOwl:id>
+        <rdfs:label>Cartilage of fibula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_34064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_34064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_34063"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:34064</oboInOwl:id>
+        <rdfs:label>Hyaline cartilage of fibula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_34074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_34074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_34064"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:34074</oboInOwl:id>
+        <rdfs:label>Epiphyseal plate of fibula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_37377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20103"/>
+        <obo:IAO_0000115>Regular connective tissue, which consists of chondrocytes and related cells, the intercellular matrix of which is chondrified. Examples: hyaline cartilage, fibrocartilage, elastic cartilage.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Cartilaginous tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:37377</oboInOwl:id>
+        <rdfs:label>Cartilage tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_55268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_55268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67619"/>
+        <obo:IAO_0000115>Organ region with one or more floating fiat boundaries. Examples: apical zone of lung, superior pole of kidney, gingiva, apex of prostate, ascending colon proper.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Organ region with floating fiat boundary</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Organ sector</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Organ zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:55268</oboInOwl:id>
+        <rdfs:label>Zone of organ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_66304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66329"/>
+        <oboInOwl:hasExactSynonym>Lateral curve of rectum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:66304</oboInOwl:id>
+        <rdfs:label>Lateral flexure of rectum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_66305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66304"/>
+        <oboInOwl:hasExactSynonym>Superodextral lateral flexure of rectum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Upper lateral curve of rectum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:66305</oboInOwl:id>
+        <rdfs:label>Superior lateral flexure of rectum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_66306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66304"/>
+        <oboInOwl:hasExactSynonym>Intermediosinistral lateral flexure of rectum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Middle lateral curve of rectum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:66306</oboInOwl:id>
+        <rdfs:label>Intermediate lateral flexure of rectum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_66307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66304"/>
+        <oboInOwl:hasExactSynonym>Inferodextral lateral flexure of rectum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lower lateral curve of rectum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:66307</oboInOwl:id>
+        <rdfs:label>Inferior lateral flexure of rectum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_66329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasExactSynonym>Rectal zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:66329</oboInOwl:id>
+        <rdfs:label>Zone of rectum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67135">
+        <obo:IAO_0000115>Material anatomical entity which is generated by coordinated expression of the organism&apos;s own genes that guide its morphogenesis; has inherent 3D shape; its parts are connected and spatially related to one another in patterns determined by coordinated gene expression. Examples: heart, right ventricle, mitral valve, myocardium, endothelium, lymphocyte, fibroblast, thorax, cardiovascular system, hemoglobin, T cell receptor.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Biological structure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:67135</oboInOwl:id>
+        <rdfs:label>Anatomical structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+        <obo:IAO_0000115>Cardinal organ part which is a fiat subdivision of an organ. Examples: lingula of left lung, tail of pancreas, artery, trochanter, nodulus of semilunar valve, right side of heart, duodenum, fundus of stomach.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:67619</oboInOwl:id>
+        <rdfs:label>Organ region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_71133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_71133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14925"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:71133</oboInOwl:id>
+        <rdfs:label>Proximal half of duodenum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_71134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_71134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14925"/>
+        <oboInOwl:hasExactSynonym>Second half of duodenum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:71134</oboInOwl:id>
+        <rdfs:label>Distal half of duodenum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_82494"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7312</oboInOwl:id>
+        <rdfs:label>Bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13188"/>
+        <oboInOwl:hasExactSynonym>Apical bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Apical segment of right lung [S I]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Apical segment of right upper lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment I of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum apicale (SI)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7338</oboInOwl:id>
+        <rdfs:label>Right apical bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13189"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment II of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior segment of right lung [S II]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior segment of right upper lobe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior segment of right upper lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum posterius (SII)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7339</oboInOwl:id>
+        <rdfs:label>Right posterior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13190"/>
+        <oboInOwl:hasExactSynonym>Anterior bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anterior segment of right lung [S III]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anterior segment of right upper lobe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment III of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum anterius (SIII)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7359</oboInOwl:id>
+        <rdfs:label>Right anterior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment V</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial segment of right lung [S V]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial segment of right middle lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Right medial bronchopulmonary segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum mediale (SV)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7360</oboInOwl:id>
+        <rdfs:label>Medial bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment IV of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral segment of right lung [S IV]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral segment of right middle lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Right lateral bronchopulmonary segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum laterale (SIV)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7361</oboInOwl:id>
+        <rdfs:label>Lateral bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13195"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment X of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior basal bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior basal segment of right lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior basal segment of right lung [S X]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum basale posterius (SX)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7362</oboInOwl:id>
+        <rdfs:label>Right posterior basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13194"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment IX of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral basal bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral basal segment of right lower lobe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral basal segment of right lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral basal segment of right lung [S IX]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum basal laterale (SIX)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7363</oboInOwl:id>
+        <rdfs:label>Right lateral basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13193"/>
+        <oboInOwl:hasExactSynonym>Anterior basal bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anterior basal segment of right lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anterior basal segment of right lung [S VIII]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment VIII of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum basale anterius (SVIII)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7364</oboInOwl:id>
+        <rdfs:label>Right anterior basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13192"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment VII of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiac bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial basal bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial basal segment of right lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial basal segment of right lung [S VII]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum basale mediale (SVII)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7365</oboInOwl:id>
+        <rdfs:label>Right medial basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13191"/>
+        <oboInOwl:hasExactSynonym>Apical segment of right lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment VI of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum superius (SVI)(pulmo dexter)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior bronchopulmonary segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior segment of right lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior segment of right lung [S VI]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7366</oboInOwl:id>
+        <rdfs:label>Right superior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Apicoposterior segment of left lung [S I + II]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Apicoposterior segment of upper division of left upper lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment I and II of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Left apicoposterior bronchopulmonary segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum apicoposterius (SI and II)(pulmo sinister)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7372</oboInOwl:id>
+        <rdfs:label>Apicoposterior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13190"/>
+        <oboInOwl:hasExactSynonym>Anterior bronchopulmonary segment of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anterior segment of left lung [S III]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anterior segment of upper division of left upper lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment III of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum anterius (SIII)(pulmo sinister)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7373</oboInOwl:id>
+        <rdfs:label>Left anterior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment IV of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum lingulare superius (SIV)(pulmo sinister)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior lingular bronchopulmonary segment of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior lingular segment of left lung [S IV]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior lingular segment of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior segment of lingula of left upper lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior segment of lower division of left upper lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7374</oboInOwl:id>
+        <rdfs:label>Superior lingular bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment V of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Inferior lingular bronchopulmonary segment of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Inferior lingular broncopulmonary segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Inferior lingular segment of left lung [S V]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Inferior segment of lingula of left upper lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Inferior segment of lower division of left upper left lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum lingulare inferius (SV)(pulmo sinister)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7375</oboInOwl:id>
+        <rdfs:label>Inferior lingular bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13191"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment VI of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum superius (SVI)(pulmo sinister)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior segment of left lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Superior segment of left lung [S VI]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7376</oboInOwl:id>
+        <rdfs:label>Left superior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13192"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment VII of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial basal segment of left lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medial basal segment of left lung [S VII]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum basale mediale (cardiacum)(SVII)(pulmo sinister)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7377</oboInOwl:id>
+        <rdfs:label>Left medial basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13193"/>
+        <oboInOwl:hasExactSynonym>Anterior basal segment of left lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anterior basal segment of left lung [S VIII]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment VIII of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum basale anterius (SVIII)(pulmo sinister)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7378</oboInOwl:id>
+        <rdfs:label>Left anterior basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13194"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment IX of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral basal segment of left lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lateral basal segment of left lung [S IX]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Left lower lobe lateral basal segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum basale laterale (SIX)(pulmo sinister)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7379</oboInOwl:id>
+        <rdfs:label>Left lateral basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13195"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment X of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior basal segment of left lower lobe of lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior basal segment of left lung [S X]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segmentum basale posterius (SX)(pulmo sinister)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7380</oboInOwl:id>
+        <rdfs:label>Left posterior basal bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13188"/>
+        <oboInOwl:hasExactSynonym>Apical bronchopulmonary segment of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment I of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7385</oboInOwl:id>
+        <rdfs:label>Left apical bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13189"/>
+        <oboInOwl:hasExactSynonym>Bronchopulmonary segment II of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior bronchopulmonary segment of left lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:7386</oboInOwl:id>
+        <rdfs:label>Left posterior bronchopulmonary segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_76837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76837">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_17559"/>
+        <oboInOwl:hasExactSynonym>Anterior lip of external os</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anterior lip of external os of uterus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:76837</oboInOwl:id>
+        <rdfs:label>Anterior lip of external cervical os</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_76838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76838">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_17559"/>
+        <oboInOwl:hasExactSynonym>Posterior lip of external os</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Posterior lip of external os of uterus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:76838</oboInOwl:id>
+        <rdfs:label>Posterior lip of external cervical os</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_82478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_82478">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14065"/>
+        <obo:IAO_0000115>Anatomical organ component of a lobular organ.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:82478</oboInOwl:id>
+        <rdfs:label>Lobular organ component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_82494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_82494">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_82478"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:82494</oboInOwl:id>
+        <rdfs:label>Lobular segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86030</oboInOwl:id>
+        <rdfs:label>Ascending colon proper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86031</oboInOwl:id>
+        <rdfs:label>Transverse colon proper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86032</oboInOwl:id>
+        <rdfs:label>Descending colon proper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67619"/>
+        <obo:IAO_0000115>Organ region with one or more anchored fiat boundaries. Examples: artery, trunk of nerve, cervical part of esophagus, pelvic part of vagina, horn of thyroid cartilage, anterior segment of eyeball.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Organ region with fixed fiat boundary</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Segment of organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86140</oboInOwl:id>
+        <rdfs:label>Organ segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+        <oboInOwl:hasExactSynonym>Large intestinal zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86175</oboInOwl:id>
+        <rdfs:label>Zone of large intestine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86176</oboInOwl:id>
+        <rdfs:label>Proximal part of ascending colon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86177</oboInOwl:id>
+        <rdfs:label>Distal part of ascending colon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86178</oboInOwl:id>
+        <rdfs:label>Proximal part of descending colon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86179</oboInOwl:id>
+        <rdfs:label>Distal part of descending colon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86180</oboInOwl:id>
+        <rdfs:label>Proximal part of sigmoid colon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86181</oboInOwl:id>
+        <rdfs:label>Distal part of sigmoid colon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86182</oboInOwl:id>
+        <rdfs:label>Proximal part of transverse colon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86175"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86183</oboInOwl:id>
+        <rdfs:label>Distal part of transverse colon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+        <obo:IAO_0000115>Organ zone in the kidney.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Renal zone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86310</oboInOwl:id>
+        <rdfs:label>Zone of kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_86726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14925"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:86726</oboInOwl:id>
+        <rdfs:label>Ascending part proper of duodenum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_8743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7312"/>
+        <oboInOwl:hasExactSynonym>Segment of right lung</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:8743</oboInOwl:id>
+        <rdfs:label>Bronchopulmonary segment of right lung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_9637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+        <obo:IAO_0000115>Anatomical structure which has as its parts cells of predominantly one type with or without intercellular matrix. Examples: epithelium, muscle tissue, connective tissue, neural tissue, lymphoid tissue.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:9637</oboInOwl:id>
+        <rdfs:label>Portion of tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_9640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9637"/>
+        <obo:IAO_0000115>Tissue which consists of fibroblasts, osteocytes or chondrocytes and intercellular matrix produced by these cells. Examples: bone (tissue), dense regular elastic tissue, areolar tissue, neuroglia, adipose tissue.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Connective tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:9640</oboInOwl:id>
+        <rdfs:label>Portion of connective tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+        <obo:IAO_0000115>anatomical structure which has as its direct parts two or more types of tissue and is continuous with one or more anatomical structures likewise constituted by two or more portions of tissues distinct from those of their complement. Examples: osteon, cortical bone, neck of femur, bronchopulmonary segment, left lobe of liver, anterior right side of heart, interventricular branch of left coronary artery, right atrium, mitral valve, head of pancreas.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:82472</oboInOwl:id>
+        <rdfs:label>Cardinal organ part</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

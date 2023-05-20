@@ -1,0 +1,28 @@
+id: hcao
+title: "Human Cell Atlas Ontology"
+github_org: ebi-ait
+repo: ontology
+report_fail_on: ERROR
+edit_format: owl
+export_formats:
+  - owl
+release_artefacts: 
+  - base
+  - full
+  - custom-efo_slim
+  - custom-hpo_slim
+  - custom-fbbi_hcao
+primary_release: full
+import_group:
+  products:
+    - id: duo
+    - id: ncit
+components:
+  products:
+    - filename: uberon_human_extended.owl
+    - filename: cl_import.owl
+    - filename: go_cell_cycle.owl
+    - filename: hcao.owl
+robot_java_args: '-Xmx16G'
+
+
