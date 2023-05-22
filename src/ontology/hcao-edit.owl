@@ -9,5 +9,12 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://ontology.data.humancellatlas.org/ontologies/hcao>
+
+Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/imports/duo_import.owl>)
+Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/imports/ncit_import.owl>)
+Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/components/uberon_human_extended.owl>)
+Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/components/cl_import.owl>)
+Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/components/go_cell_cycle.owl>)
+
 Annotation(rdfs:comment "Human Cell Atlas Ontology")
 )

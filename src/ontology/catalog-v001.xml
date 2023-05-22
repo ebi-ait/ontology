@@ -2,10 +2,12 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
 
+  <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/imports/duo_import.owl" uri="imports/duo_import.owl"/>
+  <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/imports/ncit_import.owl" uri="imports/ncit_import.owl"/>
+
   <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/uberon_human_extended.owl" uri="components/uberon_human_extended.owl"/>
   <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/cl_import.owl" uri="components/cl_import.owl"/>
   <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/go_cell_cycle.owl" uri="components/go_cell_cycle.owl"/>
-  <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao" uri="components/hcao.owl"/>
   
 
 </group>

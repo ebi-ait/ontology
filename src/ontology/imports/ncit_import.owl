@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hcao/imports/ncit_import.owl>
-<http://purl.obolibrary.org/obo/hcao/releases/2023-05-20/imports/ncit_import.owl>
+<http://purl.obolibrary.org/obo/hcao/releases/2023-05-22/imports/ncit_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncit/releases/2022-08-19/ncit.owl>)
-Annotation(owl:versionInfo "2023-05-20")
+Annotation(owl:versionInfo "2023-05-22")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C154419>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C154420>))
