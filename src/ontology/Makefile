@@ -50,7 +50,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/uberon_human_extended.owl $(COMPONENTSDIR)/cl_import.owl $(COMPONENTSDIR)/go_cell_cycle.owl $(COMPONENTSDIR)/hcao.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/uberon_human_extended.owl $(COMPONENTSDIR)/cl_import.owl $(COMPONENTSDIR)/go_cell_cycle.owl $(COMPONENTSDIR)/hcao.owl $(COMPONENTSDIR)/clo_import.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -360,6 +360,7 @@ no-mirror-recreate-%:
 $(COMPONENTSDIR)/%: | $(COMPONENTSDIR)
 	touch $@
 .PRECIOUS: $(COMPONENTSDIR)/%
+
 
 
 

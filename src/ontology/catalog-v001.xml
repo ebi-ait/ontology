@@ -8,6 +8,7 @@
   <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/uberon_human_extended.owl" uri="components/uberon_human_extended.owl"/>
   <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/cl_import.owl" uri="components/cl_import.owl"/>
   <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/go_cell_cycle.owl" uri="components/go_cell_cycle.owl"/>
+  <uri name="http://ontology.data.humancellatlas.org/ontologies/hcao/components/clo_import.owl" uri="components/clo_import.owl"/>
   
 
 </group>

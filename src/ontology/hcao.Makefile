@@ -42,8 +42,17 @@ mirror-mondo: | $(TMPDIR)
 ###### HCAO ######
 ##################
 
-SHARED_ROBOT_COMMANDS=remove -T terms_to_delete.txt remove --axioms "DisjointClasses"
+# ===============================
+# HCAO: Release artefact override
+# ===============================
 
+$(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
+	$(ROBOT) merge --input $< -o $(TMPDIR)/hcao_merged.owl &&\
+	$(ROBOT) remove --input $(TMPDIR)/hcao_merged.owl -T terms_to_delete.txt -p false -o $(TMPDIR)/hcao_cleaned.owl &&\
+	$(ROBOT) remove --input $(TMPDIR)/hcao_cleaned.owl --axioms "DisjointClasses" -o $(TMPDIR)/hcao_cleaned_temp.owl &&\
+	$(ROBOT) reason --input $(TMPDIR)/hcao_cleaned_temp.owl -r ELK reduce -r ELK annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+	
+	
 # =======================
 # HCAO: Custom components
 # =======================
@@ -56,6 +65,10 @@ $(COMPONENTSDIR)/go_cell_cycle.owl: $(MIRRORDIR)/go.owl
 
 $(COMPONENTSDIR)/cl_import.owl: $(MIRRORDIR)/cl.owl $(TMPDIR)/uberon_axioms_in_cl.owl
 	$(ROBOT) merge -i $< unmerge -i $(TMPDIR)/uberon_axioms_in_cl.owl -o $@
+
+$(COMPONENTSDIR)/clo_import.owl: ./clo_terms.txt $(MIRRORDIR)/clo.owl
+	$(ROBOT) extract --method BOT --input $(MIRRORDIR)/clo.owl --term-file ./clo_terms.txt remove -t "OBI:0000759" -o $@
+
 
 # =====================
 # HCAO: Temporary files 
@@ -74,12 +87,6 @@ $(TMPDIR)/uberon_human.owl: $(TMPDIR)/uberon_with_fma_labels.ttl $(TMPDIR)/ubero
 
 $(TMPDIR)/uberon_with_fma_labels.ttl: $(MIRRORDIR)/fma.owl
 	$(ROBOT) merge --input $(MIRRORDIR)/fma.owl --input $(MIRRORDIR)/uberon.owl query --format ttl --construct ../sparql/construct_fma_labels.sparql $(TMPDIR)/uberon_with_fma_labels.ttl
-
-$(TMPDIR)/cl_import.owl: $(MIRRORDIR)/cl.owl
-	$(ROBOT) merge -i $< unmerge -i $(TMPDIR)/uberon_axioms_in_cl.owl -o $@
-
-$(TMPDIR)/clo_import.owl: ./clo_terms.txt $(MIRRORDIR)/clo.owl
-	$(ROBOT) extract --method BOT --input $(TMPDIR)/clo.owl --term-file ./clo_terms.txt remove -t "OBI:0000759" -o $@
 
 $(TMPDIR)/uberon_terms_combined.txt: $(MIRRORDIR)/uberon.owl uberon_terms.txt
 	$(ROBOT) query -f csv --input $(MIRRORDIR)/uberon.owl --query ../sparql/select_added_for_hca.sparql $(TMPDIR)/uberon_added_for_hca.txt ; \
@@ -218,7 +225,7 @@ mirror-hp: | $(TMPDIR)
 # ===================================
 
 fbbi_hcao.owl: $(TMPDIR)/fbbi_terms.txt $(MIRRORDIR)/fbbi.owl
- 	$(ROBOT) extract --method BOT --input $(MIRRORDIR)/fbbi.owl --term-file $(TMPDIR)/fbbi_terms.txt annotate --ontology-iri "http://ontology.data.humancellatlas.org/ontologies/fbbi" --output $@
+	$(ROBOT) extract --method BOT --input $(MIRRORDIR)/fbbi.owl --term-file $(TMPDIR)/fbbi_terms.txt annotate --ontology-iri "http://ontology.data.humancellatlas.org/ontologies/fbbi" --output $@
 
 # ==========================
 # FBBI SLIM: Temporary files

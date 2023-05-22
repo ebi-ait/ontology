@@ -23,6 +23,7 @@ components:
     - filename: cl_import.owl
     - filename: go_cell_cycle.owl
     - filename: hcao.owl
+    - filename: clo_import.owl
 robot_java_args: '-Xmx16G'
 
 

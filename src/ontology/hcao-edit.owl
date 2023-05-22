@@ -15,6 +15,7 @@ Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/imports/ncit_imp
 Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/components/uberon_human_extended.owl>)
 Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/components/cl_import.owl>)
 Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/components/go_cell_cycle.owl>)
+Import(<http://ontology.data.humancellatlas.org/ontologies/hcao/components/clo_import.owl>)
 
 Annotation(rdfs:comment "Human Cell Atlas Ontology")
 )
