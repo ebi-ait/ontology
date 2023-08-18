@@ -5,6 +5,8 @@
 
 An application ontology for the Human Cell Atlas.  
 
+This repository is no longer active. Further development and maintenance is done on https://github.com/HumanCellAtlas/ontology.
+
 ## Components: 
 
 ### Anatomy:
